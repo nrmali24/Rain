@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rain Prediction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d5d5fa;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: left;
+    }
+    
+  
+    .item{
+        background-color: 1px #c3a0a0 solid;
+        border-radius: 10px;
+        padding: 10px 10px 10px;
+        width: 30%;
+    }
+    .input_item{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+    <form action="/predictions",method="post">
+        <h1>Predict Rain for Tommorrow</h1>
+        
+        <div class="item">
+            <div class="input_item">
+                <label for=""> Location</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> MinTemp</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> MaxTemp</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Rainfall</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Evaporation</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Sunshine</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> WindGustDir</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> WindGustSpeed</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> WindDir9am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> WindDir3am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> WindSpeed9am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> WindSpeed3am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Humidity9am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Humidity3am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Pressure9am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Pressure3am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Cloud9am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Cloud3am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Temp9am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> Temp3am</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> RainToday</label>
+                <input type="text">
+            </div>
+            <div class="input_item">
+                <label for=""> enc_Location</label>
+                <input type="text">
+            </div>
+            
+            <div class="input_item">
+                <label for=""> </label>
+                <h2><input type="submit"></h2>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

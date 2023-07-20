@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rain Prediction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d5d5fa;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: left;
+    }
+    
+  
+    .item{
+        background-color: 1px #c3a0a0 solid;
+        border-radius: 10px;
+        padding: 10px 10px 10px;
+        width: 30%;
+    }
+    .input_item{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+    <form action="">
+        <h1>Rain Status for Tommorrow</h1>
+        
+        <div class="item">
+            <div class="input_item">
+                <label for="">Update : {{prediction}}</label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
